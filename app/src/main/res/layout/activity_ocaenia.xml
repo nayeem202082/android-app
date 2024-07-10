@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/b">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Ocaenia"
+        android:orientation="vertical"
+        android:padding="5sp">
+
+        <!-- Row 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/australia_"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Australia"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img5"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/americansamoa"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="American Samoa"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Row 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img6"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/cookislands"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cook Islands"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img7"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/fiji"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fiji"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Row 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img8"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/frenchpolynesia"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="French Polynesia"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img9"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/guam"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Guam"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Row 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img10"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/kiribati"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kiribati"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img11"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/micronesia"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Micronesia"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Row 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img12"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/marshallislands"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Marshall Islands"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img13"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/newzealand"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Zealand"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Row 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img14"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/newcaledonia"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="New Caledonia"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img15"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/northernmariana"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Northern Mariana I."
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Row 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img16"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/nauru"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nauru"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img17"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/niue"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Niue"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Row 8 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img18"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/papuanewguinea"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Papua New Guinea"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img19"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/palau"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Palau"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Row 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img20"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/solomon"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Solomon Islands"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img21"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/samoa"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Samoa"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Row 10 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img22"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/tonga"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tonga"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img23"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/tuvalu"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tuvalu"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Row 11 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img24"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/tokelau"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tokelau"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img25"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/vanuatu"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vanuatu"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Row 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="true"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:layout_margin="5sp">
+
+                <TextView
+                    android:id="@+id/img44"
+                    android:layout_width="match_parent"
+                    android:layout_height="180sp"
+                    android:background="@drawable/wallisfi"
+                    android:layout_margin="15sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wallis and Futuna I."
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="5sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
